@@ -40,7 +40,7 @@ export default function Navigation() {
             <NavbarContent className="hidden sm:flex gap-4 font-medium" justify="center">
                 {menuItems.map((item, index) => (
                     <NavbarMenuItem key={`${item.label}-${index}`}>
-                        <Link color='foreground' href={item.href}>
+                        <Link color='foreground' className={'font-light px-1'} href={item.href}>
                             {item.label}
                         </Link>
                     </NavbarMenuItem>

@@ -27,7 +27,12 @@ body {
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+}
+
+#hero{
+  background-image: url("../../public/images/BackgroundText.png");
+}
+
+.div-slider{
+  display: flex !important;
 }
