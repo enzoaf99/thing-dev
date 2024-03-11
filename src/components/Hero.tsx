@@ -96,7 +96,7 @@ export default function Hero() {
                         emprendimientos,
                         proyectos y empresas que confiaron en nuestros servicios</h3>
                 </section>
-                <Slider {...settings} className={'flex'}>
+                <Slider {...settings} className={'flex pb-10'}>
                     <div className="flex justify-center div-slider">
                         <Image src={BlueAppLogo} height={'32'} alt="GestionApp"/>
                     </div>
