@@ -70,10 +70,10 @@ export default function Hero() {
     };
     return (
         <section id="hero">
-            <div className="flex flex-col p-8 px-16 items-center lg:flex-row lg:items-center">
+            <div className="flex flex-col items-center px-10 py-20 lg:flex-row lg:items-center lg:pt-36 lg:pb-20 lg:px-36">
                 <div className='w-full lg:w-1/2 lg:mr-2'>
-                    <p className='text-lg font-semibold pb-3 text-thing-primary'>Bienvenido a Thing</p>
-                    <h2 className='text-3xl font-semibold text-white pb-3'>Digitaliza ahora<br/>tu <span
+                    <p className='font-semibold pb-3 text-thing-primary text-xl'>Bienvenido a Thing</p>
+                    <h2 className='text-5xl font-semibold text-white pb-3'>Digitaliza ahora<br/>tu <span
                         ref={el}></span>
                     </h2>
                     <h3 className='text-base font-light text-white pb-3'>Somos una empresa dedicada a la inserción de
