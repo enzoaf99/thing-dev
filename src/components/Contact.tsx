@@ -33,7 +33,7 @@ export default function Contact() {
             <h3 className="text-thing-primary text-3xl text-center font-bold pb-5">Contacto</h3>
             <p className="text-center pb-5">Puedes contactarnos por cualquiera de nuestros canales. Cuéntanos tu
                 proyecto y te guiaremos para que accedas al mejor servicio.</p>
-            <div className="ps-10 pe-10 lg:ps-20 lg:pe-20 lg:pt-10 lg:flex">
+            <div className="ps-10 pe-10 pb-20 lg:ps-20 lg:pe-20 lg:pt-10 lg:flex">
                 <div className="lg:w-1/2 mx-auto lg:mr-5">
                     <h4 className={"text-center pb-3 font-bold"}>Déjanos tu mensaje</h4>
                     <form ref={form} onSubmit={sendEmail} className="text-center">
