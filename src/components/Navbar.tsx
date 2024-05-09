@@ -14,16 +14,17 @@ import {
 import logo from "../../public/images/logo.png";
 import Image from "next/image";
 import {PiCalendarFill} from "react-icons/pi";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function Navigation() {
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
     //Listado de items del navbar
     const menuItems = [
-        {label: "Inicio", href: "#"},
-        {label: "Servicios", href: "#servicios"},
-        {label: "Nosotros", href: "#nosotros"},
-        {label: "Casos de éxito", href: "#casos-de-exito"},
+        {label: "Inicio", href: "#hero"},
+        {label: "Nosotros", href: "#about"},
+        {label: "Servicios", href: "#services"},
+        {label: "Contacto", href: "#contact"},
     ];
 
     return (
@@ -48,11 +49,11 @@ export default function Navigation() {
             </NavbarContent>
             <NavbarContent justify="end">
                 <NavbarItem>
-                    <Button as={Link} className={'m-1 font-bold'} size="md" radius="full" color="primary" href="#"
+                    <Button as={Link} className={'m-1 font-bold'} size="sm" radius="full" color="primary" href="https://api.whatsapp.com/send?phone=541175264661&text=Hola!"
                             variant="flat">
-                        Contacto
+                        Escribenos<FaWhatsapp/>
                     </Button>
-                    <Button as={Link} className={'m-1 font-bold'} size="md" radius="full" color="primary" href="#"
+                    <Button as={Link} className={'m-1 font-bold'} size="sm" radius="full" color="primary" href="https://calendly.com/enzo-fernandez/30min"
                             variant="flat">
                         Agenda <PiCalendarFill/>
                     </Button>

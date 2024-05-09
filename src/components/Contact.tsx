@@ -29,7 +29,7 @@ export default function Contact() {
     };
 
     return (
-        <>
+        <section id="contact">
             <h3 className="text-thing-primary text-3xl text-center font-bold pb-5">Contacto</h3>
             <p className="text-center pb-5">Puedes contactarnos por cualquiera de nuestros canales. Cuéntanos tu
                 proyecto y te guiaremos para que accedas al mejor servicio.</p>
@@ -67,6 +67,6 @@ export default function Contact() {
             </div>
 
             <Toaster position={'bottom-center'}/>
-        </>
+        </section>
     );
 }

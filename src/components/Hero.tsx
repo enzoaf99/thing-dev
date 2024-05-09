@@ -11,6 +11,8 @@ import GestionAppLogo from "../../public/images/gestionapplogo.png";
 import AquorLogo from "../../public/images/aquorlogo.png";
 import AtentoLogo from "../../public/images/atentomusicologo.png";
 import PilonesLogo from "../../public/images/pilonesgyhlogo.png";
+import { TbClick } from "react-icons/tb";
+
 
 export default function Hero() {
 
@@ -72,15 +74,15 @@ export default function Hero() {
         <section id="hero">
             <div className="flex flex-col items-center px-10 py-20 lg:flex-row lg:items-center lg:pt-36 lg:pb-20 lg:px-36">
                 <div className='w-full lg:w-1/2 lg:mr-2'>
-                    <p className='font-semibold pb-3 text-thing-primary text-xl'>Bienvenido a Thing</p>
-                    <h2 className='text-5xl font-semibold text-white pb-3'>Digitaliza ahora<br/>tu <span
+                    <h1 className='font-semibold pb-6 text-thing-primary text-xl md:text-2xl'>Agencia de desarrollo de software</h1>
+                    <h2 className='text-4xl font-semibold text-white pb-6 md:text-6xl'>Digitaliza ahora<br/>tu <span
                         ref={el}></span>
                     </h2>
-                    <h3 className='text-base font-light text-white pb-3'>Somos una empresa dedicada a la inserción de
-                        proyectos en el mundo digital.</h3>
-                    <Button as={Link} className={'font-bold'} size="md" radius="full" color="primary" href="#"
+                    <h3 className='text-lg md:text-xl font-light text-white pb-6'>Somos una empresa dedicada a la inserción de
+                        proyectos y negocios en el mundo digital.</h3>
+                    <Button as={Link} className={'font-bold uppercase text-lg md:text-2xl'} size="md" radius="full" color="primary" href="https://api.whatsapp.com/send?phone=541175264661&text=Hola!#"
                             variant="flat">
-                        Saber mas
+                        asesoramiento gratis <TbClick />
                     </Button>
                 </div>
                 <div className='w-full lg:w-1/2 lg:ml-2 mt-4 lg:mt-0'>
