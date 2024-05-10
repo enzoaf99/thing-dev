@@ -100,22 +100,22 @@ export default function Hero() {
                 </section>
                 <Slider {...settings} className={'flex pb-10'}>
                     <div className="flex justify-center div-slider">
-                        <Image src={BlueAppLogo} height={'32'} alt="GestionApp"/>
+                        <Image src={BlueAppLogo} height={'40'} alt="BlueApp"/>
                     </div>
                     <div className="flex justify-center div-slider">
-                        <Image src={InstJaimLogo} height={'32'} alt="GestionApp"/>
+                        <Image src={InstJaimLogo} height={'40'} alt="InstJaim"/>
                     </div>
                     <div className="flex justify-center div-slider">
-                        <Image src={GestionAppLogo} height={'32'} alt="GestionApp"/>
+                        <Image src={GestionAppLogo} height={'40'} alt="GestionApp"/>
                     </div>
                     <div className="flex justify-center div-slider">
-                        <Image src={AquorLogo} height={'32'} alt="GestionApp"/>
+                        <Image src={AquorLogo} height={'40'} alt="Aquor"/>
                     </div>
                     <div className="flex justify-center div-slider">
-                        <Image src={AtentoLogo} height={'32'} alt="GestionApp"/>
+                        <Image src={AtentoLogo} height={'40'} alt="Atento"/>
                     </div>
                     <div className="flex justify-center div-slider">
-                        <Image src={PilonesLogo} height={'32'} alt="GestionApp"/>
+                        <Image src={PilonesLogo} height={'40'} alt="Pilones"/>
                     </div>
                 </Slider>
             </div>
