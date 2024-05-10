@@ -72,7 +72,7 @@ export default function Hero() {
     };
     return (
         <section id="hero">
-            <div className="flex flex-col items-center px-10 py-20 lg:flex-row lg:items-center lg:pt-36 lg:pb-20 lg:px-36">
+            <div className="flex flex-col items-center px-10 pt-10 lg:flex-row lg:items-center md:pt-20 lg:pt-36 lg:pb-20 lg:px-36">
                 <div className='w-full lg:w-1/2 lg:mr-2'>
                     <h1 className='font-semibold pb-6 text-thing-primary text-xl md:text-2xl'>Agencia de desarrollo de software</h1>
                     <h2 className='text-4xl font-bold text-thing-dark pb-6 md:text-6xl'>Digitaliza ahora<br/>tu <span

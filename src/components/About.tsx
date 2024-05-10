@@ -6,7 +6,7 @@ import {Accordion, AccordionItem} from "@nextui-org/react";
 export default function About() {
     return (
         <section id="about">
-            <div className="flex flex-col items-start py-20 px-10 lg:flex-row lg:items-start lg:py-20 lg:px-36">
+            <div className="flex flex-col items-start pt-20 px-10 lg:flex-row lg:items-start lg:py-20 lg:px-36">
                 <div className='w-full lg:w-1/2 lg:mr-2 xl:px-20'>
                     <Image src={about} alt={'About'}></Image>
                 </div>

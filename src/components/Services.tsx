@@ -7,7 +7,7 @@ import {MdSettingsSuggest} from "react-icons/md";
 
 export default function Services() {
     return (
-        <section id="services" className="w-full md:w-400 lg:w-200 px-5 md:px-0">
+        <section id="services" className="w-full pt-16 md:w-400 lg:w-200 px-5 md:px-0">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
                 <div className="space-y-2">
                     <h2 className="text-thing-primary text-3xl font-bold tracking-tighter sm:text-5xl">Nuestros
@@ -18,9 +18,10 @@ export default function Services() {
                     </p>
                 </div>
             </div>
-            <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-3 lg:gap-8 text-white">
+            <div
+                className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-3 lg:gap-8 text-white">
                 <div
-                    className="rounded-lg border border-black bg-thing-dark p-6 shadow-sm transition-colors hover:opacity-65 hover:border-black">
+                    className="rounded-lg border border-black bg-thing-primary p-6 shadow-sm transition-colors hover:opacity-65 hover:border-black">
                     <div className="flex items-start space-x-4">
                         <div className="flex-shrink-0">
                             <PiPaintBrushLight className="h-10 w-10"/>
@@ -33,70 +34,70 @@ export default function Services() {
                     </div>
                 </div>
                 <div
-                    className="rounded-lg border border-black bg-thing-dark p-6 shadow-sm transition-colors hover:opacity-65 hover:border-black">
+                    className="rounded-lg border border-black bg-thing-primary p-6 shadow-sm transition-colors hover:opacity-65 hover:border-black">
                     <div className="flex items-start space-x-4">
                         <div className="flex-shrink-0">
-                            <PiCodeDuotone className="h-10 w-10 text-gray-500 dark:text-gray-400"/>
+                            <PiCodeDuotone className="h-10 w-10"/>
                         </div>
                         <div>
                             <h3 className="text-lg font-semibold">Desarrollo Web</h3>
-                            <p className="text-gray-500 dark:text-gray-400">
+                            <p>
                                 Construimos sitios web a medida con tecnologías modernas.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div
-                    className="rounded-lg border border-black bg-thing-dark p-6 shadow-sm transition-colors hover:opacity-65 hover:border-black">
+                    className="rounded-lg border border-black bg-thing-primary p-6 shadow-sm transition-colors hover:opacity-65 hover:border-black">
                     <div className="flex items-start space-x-4">
                         <div className="flex-shrink-0">
-                            <SlRocket className="h-10 w-10 text-gray-500 dark:text-gray-400"/>
+                            <SlRocket className="h-10 w-10 "/>
                         </div>
                         <div>
                             <h3 className="text-lg font-semibold">Marketing Digital</h3>
-                            <p className="text-gray-500 dark:text-gray-400">
+                            <p>
                                 Impulsamos tu presencia en línea con estrategias efectivas.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div
-                    className="rounded-lg border border-black bg-thing-dark p-6 shadow-sm transition-colors hover:opacity-65 hover:border-black">
+                    className="rounded-lg border border-black bg-thing-primary p-6 shadow-sm transition-colors hover:opacity-65 hover:border-black">
                     <div className="flex items-start space-x-4">
                         <div className="flex-shrink-0">
-                            <CgSearchFound className="h-10 w-10 text-gray-500 dark:text-gray-400"/>
+                            <CgSearchFound className="h-10 w-10 "/>
                         </div>
                         <div>
                             <h3 className="text-lg font-semibold">Optimización SEO</h3>
-                            <p className="text-gray-500 dark:text-gray-400">
+                            <p>
                                 Mejoramos la visibilidad de tu sitio web en los motores de búsqueda.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div
-                    className="rounded-lg border border-black bg-thing-dark p-6 shadow-sm transition-colors hover:opacity-65 hover:border-black">
+                    className="rounded-lg border border-black bg-thing-primary p-6 shadow-sm transition-colors hover:opacity-65 hover:border-black">
                     <div className="flex items-start space-x-4">
                         <div className="flex-shrink-0">
-                            <GrPieChart className="h-10 w-10 text-gray-500 dark:text-gray-400"/>
+                            <GrPieChart className="h-10 w-10 "/>
                         </div>
                         <div>
                             <h3 className="text-lg font-semibold">Análisis de Datos</h3>
-                            <p className="text-gray-500 dark:text-gray-400">
+                            <p>
                                 Proporcionamos informes detallados sobre el rendimiento de tu sitio web.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div
-                    className="rounded-lg border border-black bg-thing-dark p-6 shadow-sm transition-colors hover:opacity-65 hover:border-black">
+                    className="rounded-lg border border-black bg-thing-primary p-6 shadow-sm transition-colors hover:opacity-65 hover:border-black">
                     <div className="flex items-start space-x-4">
                         <div className="flex-shrink-0">
-                            <MdSettingsSuggest className="h-10 w-10 text-gray-500 dark:text-gray-400"/>
+                            <MdSettingsSuggest className="h-10 w-10 "/>
                         </div>
                         <div>
                             <h3 className="text-lg font-semibold">Soporte y Mantenimiento</h3>
-                            <p className="text-gray-500 dark:text-gray-400">
+                            <p>
                                 Brindamos soporte continuo y mantenemos tu sitio web actualizado.
                             </p>
                         </div>
