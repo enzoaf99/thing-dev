@@ -7,7 +7,7 @@ import React from "react";
 export default function Contact() {
 
     return (
-            <section id={"contact"} className="w-full py-12 px-18 lg:px-36 md:py-24 lg:py-32">
+            <section id={"contact"} className="w-full pb-10 px-18 md:px-36 md:py-16">
                 <div className="container px-4 md:px-6">
                     <div
                         className="grid items-center gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_550px]">
