@@ -1,97 +1,106 @@
-'use client'
-import {Button, Card, CardBody, Link} from "@nextui-org/react";
-import {CardHeader} from "@nextui-org/card";
-import { GiWorld } from "react-icons/gi";
-import { SlScreenSmartphone } from "react-icons/sl";
-import { GiMagicBroom } from "react-icons/gi";
-import { LuBrainCircuit } from "react-icons/lu";
+import {PiPaintBrushLight} from "react-icons/pi";
+import {PiCodeDuotone} from "react-icons/pi";
+import {SlRocket} from "react-icons/sl";
+import {CgSearchFound} from "react-icons/cg";
+import {GrPieChart} from "react-icons/gr";
+import {MdSettingsSuggest} from "react-icons/md";
 
-export default function Services(){
-    return(
-        <section id="services">
-            <div className={"p-5"}>
-                <h3 className={'text-thing-primary text-3xl text-center font-bold pb-5'}>Nuestros servicios</h3>
-                <p className={'text-center pb-5'}>En búsqueda de un solución práctica e innovadora para los proyectos de cualquier tipo de empresa o emprendimiento</p>
-                <div className={'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:gap-28 justify-center lg:mx-40'}>
-
-                    <div className="w-full md:w-400 lg:w-200">
-                        <Card isFooterBlurred radius="lg" className="border-none m-4 p-5 min-h-[300px]">
-                            <CardHeader className={"text-thing-primary inline-block"}>
-                                <LuBrainCircuit className={"text-3xl mb-2"}/>
-                                <h4 className={"text-2xl"}>Desarrollos para empresas</h4>
-                            </CardHeader>
-                            <CardBody>
-                                <p className={'text-white pb-3'}><strong>Potencia y optimiza tu trabajo con un software a la
-                                    medida de tus necesidades.</strong> Contamos con un equipo de profesionales con basta
-                                    experiencia con el que te ayudaremos a desarrollar el sistema que necesita tu empresa
-                                </p>
-                            </CardBody>
-                            <Button as={Link} className={'font-bold w-[calc(100%_-_8px)]'} size="md" radius="full"
-                                    color="primary" href="#"
-                                    variant="flat">
-                                Mas información
-                            </Button>
-                        </Card>
+export default function Services() {
+    return (
+        <section id={"services"} className="w-full md:w-400 lg:w-200 px-5 md:px-0">
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+                <div className="space-y-2">
+                    <h2 className="text-thing-primary text-3xl font-bold tracking-tighter sm:text-5xl">Nuestros
+                        Servicios</h2>
+                    <p className="max-w-[700px] text-white md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                        Ofrecemos una amplia gama de servicios de diseño web para ayudar a tu negocio a destacar en
+                        línea.
+                    </p>
+                </div>
+            </div>
+            <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-3 lg:gap-8 text-white">
+                <div
+                    className="rounded-lg border border-black bg-thing-primary p-6 shadow-sm transition-colors hover:border-white">
+                    <div className="flex items-start space-x-4">
+                        <div className="flex-shrink-0">
+                            <PiPaintBrushLight className="h-10 w-10"/>
+                        </div>
+                        <div>
+                            <h3 className="text-lg font-semibold">Diseño Gráfico</h3>
+                            <p>Creamos diseños únicos y atractivos para tu
+                                marca.</p>
+                        </div>
                     </div>
-
-                    <div className="w-full md:w-400 lg:w-200">
-                        <Card isFooterBlurred radius="lg" className="border-none m-4 p-5 min-h-[300px]">
-                            <CardHeader className={"text-thing-primary inline-block"}>
-                                <SlScreenSmartphone className={"text-3xl mb-2"}/>
-                                <h4 className={"text-2xl"}>Apps personalizadas</h4>
-                            </CardHeader>
-                            <CardBody>
-                                <p className={'text-white pb-3'}><strong>No todo es una página web, lleva tu idea al
-                                    dispositivo que necesites.</strong> Contamos con experiencia en desarrollo de Apps de
-                                    escritorio o para móviles.</p>
-                            </CardBody>
-                            <Button as={Link} className={'font-bold w-[calc(100%_-_8px)]'} size="md" radius="full"
-                                    color="primary" href="#"
-                                    variant="flat">
-                                Mas información
-                            </Button>
-                        </Card>
+                </div>
+                <div
+                    className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-colors hover:border-gray-900 dark:border-gray-800 dark:bg-gray-950 dark:hover:border-gray-50">
+                    <div className="flex items-start space-x-4">
+                        <div className="flex-shrink-0">
+                            <PiCodeDuotone className="h-10 w-10 text-gray-500 dark:text-gray-400"/>
+                        </div>
+                        <div>
+                            <h3 className="text-lg font-semibold">Desarrollo Web</h3>
+                            <p className="text-gray-500 dark:text-gray-400">
+                                Construimos sitios web a medida con tecnologías modernas.
+                            </p>
+                        </div>
                     </div>
-
-                    <div className="w-full md:w-400 lg:w-200">
-                        <Card isFooterBlurred radius="lg" className="border-none m-4 p-5 min-h-[300px]">
-                            <CardHeader className={"text-thing-primary inline-block"}>
-                                <GiWorld className={"text-3xl mb-2"}/>
-                                <h4 className={"text-2xl"}>Landing Page</h4>
-                            </CardHeader>
-                            <CardBody>
-                                <p className={'text-white pb-3'}><strong>Haz que todos conozcan tu producto o proyecto y
-                                    consigue convertir tus visitas en contactos.</strong> Contarás con asesoramiento de
-                                    nuestro equipo para que tu página se adapte a tus necesidades y objetivos.</p>
-                            </CardBody>
-                            <Button as={Link} className={'font-bold w-[calc(100%_-_8px)]'} size="md" radius="full"
-                                    color="primary" href="#"
-                                    variant="flat">
-                                Mas información
-                            </Button>
-                        </Card>
+                </div>
+                <div
+                    className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-colors hover:border-gray-900 dark:border-gray-800 dark:bg-gray-950 dark:hover:border-gray-50">
+                    <div className="flex items-start space-x-4">
+                        <div className="flex-shrink-0">
+                            <SlRocket className="h-10 w-10 text-gray-500 dark:text-gray-400"/>
+                        </div>
+                        <div>
+                            <h3 className="text-lg font-semibold">Marketing Digital</h3>
+                            <p className="text-gray-500 dark:text-gray-400">
+                                Impulsamos tu presencia en línea con estrategias efectivas.
+                            </p>
+                        </div>
                     </div>
-
-                    <div className="w-full md:w-400 lg:w-200">
-                        <Card isFooterBlurred radius="lg" className="border-none m-4 p-5 min-h-[300px]">
-                            <CardHeader className={"text-thing-primary inline-block"}>
-                                <GiMagicBroom className={"text-3xl mb-2"}/>
-                                <h4 className={"text-2xl"}>Mantenimiento y mejoras</h4>
-                            </CardHeader>
-                            <CardBody>
-                                <p className={'text-white pb-3'}><strong>Manten tu web sin fallos fallos con mantenimiento y
-                                    optimizacion.</strong> Nos hacemos cargo de tu proyecto ya iniciado y nos encargamos de
-                                    mantenerlo y mejorarlo para que tengas el mejor producto posible de cara a tus clientes.
-                                </p>
-                            </CardBody>
-                            <Button as={Link} className={'font-bold w-[calc(100%_-_8px)]'} size="md" radius="full"
-                                    color="primary" href="#"
-                                    variant="flat">
-                                Mas información
-                            </Button>
-                        </Card>
+                </div>
+                <div
+                    className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-colors hover:border-gray-900 dark:border-gray-800 dark:bg-gray-950 dark:hover:border-gray-50">
+                    <div className="flex items-start space-x-4">
+                        <div className="flex-shrink-0">
+                            <CgSearchFound className="h-10 w-10 text-gray-500 dark:text-gray-400"/>
+                        </div>
+                        <div>
+                            <h3 className="text-lg font-semibold">Optimización SEO</h3>
+                            <p className="text-gray-500 dark:text-gray-400">
+                                Mejoramos la visibilidad de tu sitio web en los motores de búsqueda.
+                            </p>
+                        </div>
                     </div>
-
+                </div>
+                <div
+                    className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-colors hover:border-gray-900 dark:border-gray-800 dark:bg-gray-950 dark:hover:border-gray-50">
+                    <div className="flex items-start space-x-4">
+                        <div className="flex-shrink-0">
+                            <GrPieChart className="h-10 w-10 text-gray-500 dark:text-gray-400"/>
+                        </div>
+                        <div>
+                            <h3 className="text-lg font-semibold">Análisis de Datos</h3>
+                            <p className="text-gray-500 dark:text-gray-400">
+                                Proporcionamos informes detallados sobre el rendimiento de tu sitio web.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-colors hover:border-gray-900 dark:border-gray-800 dark:bg-gray-950 dark:hover:border-gray-50">
+                    <div className="flex items-start space-x-4">
+                        <div className="flex-shrink-0">
+                            <MdSettingsSuggest className="h-10 w-10 text-gray-500 dark:text-gray-400"/>
+                        </div>
+                        <div>
+                            <h3 className="text-lg font-semibold">Soporte y Mantenimiento</h3>
+                            <p className="text-gray-500 dark:text-gray-400">
+                                Brindamos soporte continuo y mantenemos tu sitio web actualizado.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

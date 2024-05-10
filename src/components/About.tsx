@@ -10,7 +10,7 @@ export default function About() {
                 <div className='w-full lg:w-1/2 lg:mr-2 xl:px-20'>
                     <Image src={about} alt={'About'}></Image>
                 </div>
-                <div className='w-full lg:w-1/2 lg:ml-2 mt-4 lg:mt-0'>
+                <div className='w-full lg:w-1/2 lg:ml-2 mt-4 lg:mt-0 text-white'>
                     <h3 className={'text-thing-primary font-bold text-2xl pt-7 lg:text-4xl lg:pt-0 '}>Código de calidad,
                         soluciones para tu empresa</h3>
                     <p className={'py-7'}>En ThingDev nos apasiona la programación y estamos comprometidos a brindar

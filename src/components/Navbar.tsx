@@ -14,7 +14,7 @@ import {
 import logo from "../../public/images/logo.png";
 import Image from "next/image";
 import {PiCalendarFill} from "react-icons/pi";
-import { FaWhatsapp } from "react-icons/fa";
+import {FaWhatsapp} from "react-icons/fa";
 
 export default function Navigation() {
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -28,14 +28,14 @@ export default function Navigation() {
     ];
 
     return (
-        <Navbar onMenuOpenChange={setIsMenuOpen}>
+        <Navbar onMenuOpenChange={setIsMenuOpen} className={"bg-white drop-shadow"}>
             <NavbarContent>
                 <NavbarMenuToggle
                     aria-label={isMenuOpen ? "Close menu" : "Open menu"}
                     className="sm:hidden"
                 />
                 <NavbarBrand>
-                    <Image src={logo} alt={"ThingDev"}></Image>
+                    <Image style={{width: '100px', height: 'auto'}} src={logo} alt={"ThingDev"}></Image>
                 </NavbarBrand>
             </NavbarContent>
             <NavbarContent className="hidden sm:flex gap-4 font-medium" justify="center">
@@ -49,13 +49,13 @@ export default function Navigation() {
             </NavbarContent>
             <NavbarContent justify="end">
                 <NavbarItem>
-                    <Button as={Link} className={'m-1 font-bold'} size="sm" radius="full" color="primary" href="https://api.whatsapp.com/send?phone=541175264661&text=Hola!"
+                    <Button as={Link} className={'font-bold uppercase text-sm mx-2'} size="sm" radius="full" color="primary" href="https://api.whatsapp.com/send?phone=541175264661&text=Hola!"
                             variant="flat">
-                        Escribenos<FaWhatsapp/>
+                        Escribenos<FaWhatsapp />
                     </Button>
-                    <Button as={Link} className={'m-1 font-bold'} size="sm" radius="full" color="primary" href="https://calendly.com/enzo-fernandez/30min"
+                    <Button as={Link} className={'font-bold uppercase text-sm mx-2'} size="sm" radius="full" color="primary" href="https://calendly.com/enzo-fernandez/30min"
                             variant="flat">
-                        Agenda <PiCalendarFill/>
+                        Agenda<PiCalendarFill />
                     </Button>
                 </NavbarItem>
             </NavbarContent>

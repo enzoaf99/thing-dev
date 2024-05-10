@@ -17,6 +17,7 @@ const config: Config = {
       },
       colors: {
         'thing-primary': '#4e6ef1',
+        'thing-dark': '#030712'
       }
     },
   },
@@ -26,7 +27,7 @@ const config: Config = {
       dark: {
         colors: {
           primary:"#4e6ef1",
-          foreground:"#ffffff"
+          foreground:"#030712"
         },
       },
     },
