@@ -27,6 +27,13 @@ export default function Navigation() {
         {label: "Contacto", href: "#contact"},
     ];
 
+    const scrollToSection = (href: string) => {
+        const element = document.querySelector(href);
+        if (element) {
+            element.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+    };
+
     return (
         <Navbar onMenuOpenChange={setIsMenuOpen} className={"bg-white drop-shadow"}>
             <NavbarContent>
@@ -41,7 +48,7 @@ export default function Navigation() {
             <NavbarContent className="hidden sm:flex gap-4 font-medium" justify="center">
                 {menuItems.map((item, index) => (
                     <NavbarMenuItem key={`${item.label}-${index}`}>
-                        <Link color='foreground' className={'font-light px-1'} href={item.href}>
+                        <Link color='foreground' className={'font-light px-1'} onClick={() => scrollToSection(item.href)}>
                             {item.label}
                         </Link>
                     </NavbarMenuItem>

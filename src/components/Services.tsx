@@ -7,12 +7,12 @@ import {MdSettingsSuggest} from "react-icons/md";
 
 export default function Services() {
     return (
-        <section id={"services"} className="w-full md:w-400 lg:w-200 px-5 md:px-0">
+        <section id="services" className="w-full md:w-400 lg:w-200 px-5 md:px-0">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
                 <div className="space-y-2">
                     <h2 className="text-thing-primary text-3xl font-bold tracking-tighter sm:text-5xl">Nuestros
                         Servicios</h2>
-                    <p className="max-w-[700px] text-white md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                    <p className="max-w-[700px] text-thing-dark md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                         Ofrecemos una amplia gama de servicios de diseño web para ayudar a tu negocio a destacar en
                         línea.
                     </p>
@@ -20,7 +20,7 @@ export default function Services() {
             </div>
             <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-3 lg:gap-8 text-white">
                 <div
-                    className="rounded-lg border border-black bg-thing-primary p-6 shadow-sm transition-colors hover:border-white">
+                    className="rounded-lg border border-black bg-thing-dark p-6 shadow-sm transition-colors hover:opacity-65 hover:border-black">
                     <div className="flex items-start space-x-4">
                         <div className="flex-shrink-0">
                             <PiPaintBrushLight className="h-10 w-10"/>
@@ -33,7 +33,7 @@ export default function Services() {
                     </div>
                 </div>
                 <div
-                    className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-colors hover:border-gray-900 dark:border-gray-800 dark:bg-gray-950 dark:hover:border-gray-50">
+                    className="rounded-lg border border-black bg-thing-dark p-6 shadow-sm transition-colors hover:opacity-65 hover:border-black">
                     <div className="flex items-start space-x-4">
                         <div className="flex-shrink-0">
                             <PiCodeDuotone className="h-10 w-10 text-gray-500 dark:text-gray-400"/>
@@ -47,7 +47,7 @@ export default function Services() {
                     </div>
                 </div>
                 <div
-                    className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-colors hover:border-gray-900 dark:border-gray-800 dark:bg-gray-950 dark:hover:border-gray-50">
+                    className="rounded-lg border border-black bg-thing-dark p-6 shadow-sm transition-colors hover:opacity-65 hover:border-black">
                     <div className="flex items-start space-x-4">
                         <div className="flex-shrink-0">
                             <SlRocket className="h-10 w-10 text-gray-500 dark:text-gray-400"/>
@@ -61,7 +61,7 @@ export default function Services() {
                     </div>
                 </div>
                 <div
-                    className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-colors hover:border-gray-900 dark:border-gray-800 dark:bg-gray-950 dark:hover:border-gray-50">
+                    className="rounded-lg border border-black bg-thing-dark p-6 shadow-sm transition-colors hover:opacity-65 hover:border-black">
                     <div className="flex items-start space-x-4">
                         <div className="flex-shrink-0">
                             <CgSearchFound className="h-10 w-10 text-gray-500 dark:text-gray-400"/>
@@ -75,7 +75,7 @@ export default function Services() {
                     </div>
                 </div>
                 <div
-                    className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-colors hover:border-gray-900 dark:border-gray-800 dark:bg-gray-950 dark:hover:border-gray-50">
+                    className="rounded-lg border border-black bg-thing-dark p-6 shadow-sm transition-colors hover:opacity-65 hover:border-black">
                     <div className="flex items-start space-x-4">
                         <div className="flex-shrink-0">
                             <GrPieChart className="h-10 w-10 text-gray-500 dark:text-gray-400"/>
@@ -89,7 +89,7 @@ export default function Services() {
                     </div>
                 </div>
                 <div
-                    className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-colors hover:border-gray-900 dark:border-gray-800 dark:bg-gray-950 dark:hover:border-gray-50">
+                    className="rounded-lg border border-black bg-thing-dark p-6 shadow-sm transition-colors hover:opacity-65 hover:border-black">
                     <div className="flex items-start space-x-4">
                         <div className="flex-shrink-0">
                             <MdSettingsSuggest className="h-10 w-10 text-gray-500 dark:text-gray-400"/>
