@@ -14,7 +14,7 @@ export default function Contact() {
                         <div className="space-y-4">
                             <div className="space-y-2">
                                 <h2 className="text-thing-primary pb-5 text-3xl text-center font-bold tracking-tighter sm:text-5xl md:text-left">Contáctanos</h2>
-                                <p className="max-w-[600px] text-thing-black md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                                <p className="max-w-[600px] text-center md:text-left text-thing-black md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                                     Si tienes alguna pregunta o quieres saber más sobre nuestros servicios, no dudes en
                                     ponerte en
                                     contacto con nosotros.
